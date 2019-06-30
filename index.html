@@ -26,7 +26,7 @@
             <p>Look at my most recent github repos.</p>
         </div>
     </div>
-    <section class="container change-user hidden">
+    <section class="container change-user">
         <form>
             <div class="form-group">
                 <label for="username">Username:</label>
@@ -41,11 +41,11 @@
     <section class="container">
         <header>
             <h2>Showing repos from
-                <a href="https://github.com/code-corgi/">code-corgi</a>
+                <a id = "username" href="https://github.com/code-corgi/">code-corgi</a>
             </h2>
         </header>
         <main class="repo-list">
-            <div class="row repo">
+            <!-- <div class="row repo">
                 <h3>
                     <a href="https://github.com/code-corgi/challenge-2-list-repos">
                         challenge-2-list-repos
@@ -71,13 +71,28 @@
                         <span>3</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+
         </main>
+        <!-- <div class="stats">
+            <div class="col-sm-1 stars">
+                <svg class="icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 14 16" width="14">
+                    <use xlink: href="./svg/sprites.svg#star"></use>
+                </svg>
+                <span>1</span>
+            </div>
+            <div class="col-sm-1 forks">
+                <svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 10 16" width="10">
+                    <use xlink: href="./svg/sprites.svg#fork"></use>
+                </svg>
+                <span>3</span>
+            </div> -->
         <hr>
         <footer>
             <p>&copy; Ainur 2017</p>
         </footer>
-    </section>        
+    </section>
     <script src="./scripts/app.js"></script>
     </body>
 </html>
